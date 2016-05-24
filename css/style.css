@@ -1,0 +1,12 @@
+html, body{
+    margin:0 auto;
+    padding:0;
+}
+
+.canvasDiv{
+   text-align: center;
+}
+
+.gameField{
+  background-image: url('../img/background.jpg');
+}

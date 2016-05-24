@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LevelGen</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <canvas class = "game_field">
+                Sorry, but your browser can't show canvas. Try to update it
+            </canvas>
+        </div>
+        <div class = 'controls'>
+            <label>
+                Row's Count
+                <input type='number' class='row' min='1' value = '3'/>
+            </label>
+            <label>
+                Column's Count
+                <input type='number' class='col' min='1' value = '3'/>
+            </label>
+            <input type = 'button' class ='btnGreed' value='create greed'/>
+            <input type = 'button' class ='btnLevel' value='ok'/>
+            <input type = 'button' class = 'btnFromJSON' value = 'From JSON'>
+        
+        </div>
+        <div class = 'levelCode'>
+        </div>
+        <script src = "js/game.js"></script>
+        <script src = "js/painter.js"></script>
+        <script src = "js/init.js"></script>
+        <script src = "js/level_gen.js"></script>
+    </body>
+</html>
